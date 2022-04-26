@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'good-times-rg';
+  src: url('/fonts/good-times-rg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'play-rg';
+  src: url('/fonts/play-rg.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'play-bold';
+  src: url('/fonts/play-bold.ttf') format('truetype');
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
