@@ -1,5 +1,5 @@
 import { Form } from '@remix-run/react';
-import TextBox from '../../components/TextBox';
+import TextBox from './TextBox';
 
 import type { Transition } from '@remix-run/react/transition';
 

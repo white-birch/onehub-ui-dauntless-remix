@@ -1,6 +1,6 @@
 import { json, redirect } from '@remix-run/node';
 import { useLoaderData, useTransition } from '@remix-run/react';
-import SignInForm from '~/routes/sign-in/SignInForm';
+import SignInForm from '~/components/SignInForm';
 import { commitSession, getSession } from '~/sessions';
 
 import type { ActionFunction, LoaderFunction } from '@remix-run/node';

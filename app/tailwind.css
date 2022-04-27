@@ -531,14 +531,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(247 245 251 / var(--tw-bg-opacity));
 }
 
-.bg-flamingo-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 218 218 / var(--tw-bg-opacity));
-}
-
 .bg-azure {
   --tw-bg-opacity: 1;
   background-color: rgb(49 97 154 / var(--tw-bg-opacity));
+}
+
+.bg-flamingo-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 218 218 / var(--tw-bg-opacity));
 }
 
 .p-2 {

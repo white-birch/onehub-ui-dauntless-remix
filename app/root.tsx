@@ -2,7 +2,7 @@ import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration } from '@re
 import Footer from '~/components/Footer';
 import tailwind from './tailwind.css';
 
-import type { LinksFunction, MetaFunction } from '@remix-run/node';
+import type { ErrorBoundaryComponent, LinksFunction, MetaFunction } from '@remix-run/node';
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: tailwind },
@@ -37,6 +37,21 @@ export const meta: MetaFunction = () => ({
   title: 'Dauntless Academy',
   viewport: 'width=device-width,initial-scale=1',
 });
+
+export const ErrorBoundary: ErrorBoundaryComponent = function () {
+  return (
+    <html>
+      <head>
+        <Meta />
+        <Links />
+      </head>
+      <body>
+        An unexpected error has occurred!
+        <Scripts />
+      </body>
+    </html>
+  );
+};
 
 export default function App() {
   return (
