@@ -481,6 +481,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
+.h-\[1em\] {
+  height: 1em;
+}
+
 .w-full {
   width: 100%;
 }
@@ -556,6 +560,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1.5rem;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-sans {
   font-family: Poppins, "Open Sans", sans-serif;
 }
@@ -577,6 +585,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(247 245 251 / var(--tw-text-opacity));
+}
+
+.text-flamingo {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .outline-none {
